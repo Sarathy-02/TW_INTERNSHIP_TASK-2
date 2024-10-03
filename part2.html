@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara - Frontend Developer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="part2.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">SARA.</div>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Hello, It's Me</h1>
+                <h1><span class="highlight">Sarathy M</span></h1>
+                <p>And I'm a passionate Full Stack Developer dedicated to learning and creating dynamic web applications. My goal is to master both frontend and backend technologies to deliver seamless user experiences.</p>
+                <a href="#" class="cta-button" download>Download CV</a>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="hero-image-border"></div>
+                <div class="hero-image">
+                    <img src="f2b4184f-5503-4cda-8671-392384165ac1.jpg" alt="Sara">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm an aspiring Full Stack Developer with a strong passion for technology and coding. My journey into the world of web development began with a fascination for how websites and applications are built and function.</p>
+                    <p>I am dedicated to learning and mastering both frontend and backend technologies, aiming to create seamless and dynamic web experiences. Although I am at the beginning of my career, I am committed to developing my skills and knowledge in this ever-evolving field.</p>
+                </div>
+                <div class="hero-image-container">
+                    <div class="hero-image-border"></div>
+                    <div class="hero-image">
+                        <img src="f2b4184f-5503-4cda-8671-392384165ac1.jpg" alt="Aspiring Developer">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="skills" class="section">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <ul class="skill-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming Skills</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C,C++</li>
+                        <li>R</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3 class="project-title">Examination Management System</h3>
+                    <p class="project-description">A comprehensive examination management system named "Visar," designed to streamline the examination process, including scheduling, student registration, and result management.</p>
+                    <div class="project-links">
+                        <a href="https://sarathy-02.github.io/VISAR/"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">E-commerce Website</h3>
+                    <p class="project-description">An e-commerce website named "INDSAR," featuring product listings, shopping cart functionality, and payment integration to facilitate online shopping.</p>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <h3 class="education-title">Bachelor of Technology in Information Technology</h3>
+                    <p class="education-details">National Engineering College, Currently Pursuing (Third Year)</p>
+                    <p>Focusing on advanced topics in information technology, programming, and software development.</p>
+                </div>
+                <div class="education-item">
+                    <h3 class="education-title">Higher Secondary Education</h3>
+                    <p class="education-details">Velammal Matric Hr Secondary School, 11th and 12th Grade</p>
+                    <p>Completed higher secondary education with a strong foundation in science and mathematics.</p>
+                </div>
+                <div class="education-item">
+                    <h3 class="education-title">Secondary Education</h3>
+                    <p class="education-details">ANNS Matric Hr Secondary School, SSLC</p>
+                    <p>Completed SSLC with a focus on core subjects and general studies.</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <script src="part2.js"></script>
+</body>
+</html>
